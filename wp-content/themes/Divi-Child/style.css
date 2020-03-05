@@ -1,4 +1,4 @@
-    /*
+                                                    /*
 Theme Name: Divi-Child
 Theme URI: http://www.elegantthemes.com/gallery/divi/
 Version: 3.22.7
@@ -9,355 +9,602 @@ License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: Divi-Child
 */
-    
-    .et_overlay:before {
-        /* font-family: inherit !important; */
-        content: "";
-    }
-    
-    .et_overlay {
-        /* display: none; */
-    }
-    
-    #et_search_icon {
-        background: url('images/search.png') no-repeat;
-        background-size: 100%;
-        width: 22px;
-        height: 23px;
-        display: block;
-    }
-    
-    #et_top_search {
-        display: block;
-        float: left;
-        position: relative;
-        width: 18px;
-        margin: -3px 62px 0 22px;
-    }
-    
-    #et_search_icon:before {
-        font-family: inherit !important;
-        content: "Search";
-        padding: 3px 0 0 25px;
-    }
-    /* #et_search_icon:after {
-    font-family: inherit !important;
-    content: "Test";
-} */
-    
-    #main-header {
-        box-shadow: none !important;
-        background-color: transparent !important;
-        position: absolute;
-    }
-    
-    #main-header.et-fixed-header {
-        box-shadow: none !important;
-    }
-    
-    #page-container {
-        padding-top: 0 !important;
-    }
-    
-    #et-top-navigation {
-        background: white;
-        border-radius: 40px;
-        padding-left: 0 !important;
-    }
-    
-    #et-top-navigation .et-cart-info {
-        display: none;
-    }
-    
-    #top-menu,
-    .fullwidth-menu,
-    nav#top-menu-nav,
-    nav.fullwidth-menu-nav {
-        float: right;
-        margin-left: 20px;
-        margin-right: 10px;
-    }
-    
-    .et_header_style_left #et-top-navigation nav>ul>li>a,
-    .et_header_style_split #et-top-navigation nav>ul>li>a {
-        padding-bottom: 0;
-    }
-    
-    .et_header_style_left #et-top-navigation,
-    .et_header_style_split #et-top-navigation {
-        padding: 18px 18px 11px 0;
-        margin-top: 20px;
-    }
-    
-    #logo {
-        display: inline-block;
-        float: none;
-        max-height: 120px;
-        margin-bottom: 100px;
-        margin-top: -30px;
-        vertical-align: bottom;
-    }
-    
-    div.et_pb_section.et_pb_section_0 {
-        background-position-y: inherit;
-        height: 150vh;
-    }
-    
-    #yellow {
-        color: #fbf934;
-    }
-    
-    #header-content-container {
-        width: 400px;
-        right: 0px;
-        position: absolute
-    }
-    
-    #white {
-        color: white;
-    }
-    
-    .et_pb_section .et_pb_row,
-    .et_pb_section.et_section_specialty .et_pb_row {
-        margin: -110px auto 0 auto;
-        width: 98%;
-        border-radius: 5px;
-        background: #fff;
-    }
-    
-    .et_pb_row_0 {
-        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
-    }
-    
-    .et_pb_shop_0 .et_shop_image {
-        box-shadow: none !important;
-        width: 250px;
-        min-height: 360px;
-        margin: auto;
-    }
-    
-    .woocommerce-page.columns-3 ul.products li.product,
-    .woocommerce.columns-3 ul.products li.product {
-        width: 33.333%;
-        margin: 20px 0;
-        padding-bottom: 22px;
-    }
-    
-    .products li:hover {
-        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
-    }
-    
-    .products li:hover::after {}
-    
-    .et_shop_image:hover {
-        box-shadow: none !important;
-        border: none !important;
-    }
-    
-    .et_shop_image:hover::before,
-    .et_shop_image:hover::after {
-        content: " ";
-    }
-    
-    .et_shop_image:hover::before,
-    .et_shop_image:hover::after {
-        content: " ";
-    }
-    
-    .et_overlay:after {
-        content: "Add to cart";
-        background: rgb(140, 132, 249);
-        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%);
-        font-size: 14px;
-        -webkit-transition: all .4s;
-        -moz-transition: all .4s;
-        transition: all .4s;
-        border-radius: 15px;
-        padding: 10px 30px;
-        width: 40%;
-        text-align: center;
-        position: absolute;
-        align-items: center;
-        left: 0;
-        bottom: -116px;
-        color: #fff;
-        margin-left: 55px;
-    }
-    
-    .et_overlay {
-        display: block;
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        border: none;
-        opacity: 0;
-        background: transparent;
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-        -webkit-transform: translate3d(0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -o-backface-visibility: hidden;
-    }
-    
-    .et_pb_column.et_pb_column_1_2.et_pb_column_1.et_pb_css_mix_blend_mode_passthrough {
-        margin-top: 230px;
-    }
-    
-    .et_pb_row_2 {
-        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
-    }
-    
-    .et_pb_text_2 h1 {
-        text-align: center;
-        font-weight: bold;
-    }
-    
-    ul.et_pb_tabs_controls {
-        box-shadow: 4px 3px 24px 2px rgba(0, 0, 0, 0.1);
-        background: none;
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 30px;
-    }
-    
-    ul.et_pb_tabs_controls li {
-        border: none;
-        padding: 23px 32px;
-        text-transform: capitalize;
-        height: auto !important;
-    }
-    
-    .et_pb_tab_active {}
-    
-    .et_pb_all_tabs {
-        margin-top: 10px;
-    }
-    
-    .et_pb_tabs_0 {
-        border: none;
-    }
-    
-    .et_pb_tabs_controls li.et_pb_tab_active {
-        background: none;
-        padding: 23px 32px !important;
-    }
-    
-    ul.et_pb_tabs_controls:after {
-        border: none;
-    }
-    
-    .et_pb_tabs_controls li {}
-    
-    .type-product {
-        text-align: center;
-    }
-    
-    .woocommerce ul.products li.product a img {
-        display: inline;
-        width: 250px;
-        height: 250px;
-    }
-    
-    .et_fixed_nav #main-header,
-    .et_fixed_nav #top-header {
-        position: absolute;
-    }
-    
-    #mc_embed_signup .button {
-        border-radius: 25px !important;
-        position: relative;
-        top: -36px;
-        left: 222px;
-        background: rgb(140, 132, 249) !important;
-        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%) !important;
-        border: none;
-        color: white;
-        padding: 7px 31px;
-        cursor: pointer;
-    }
-    
-    #mc_embed_signup input.email {
-        border-radius: 25px !important;
-        padding: 0;
-        height: 40px !important;
-        padding-left: 10px;
-        width: 44% !important;
-    }
-    
-    .et_pb_section.et_pb_section_4.et_section_regular {
-        background: url('images/get_notified_bg.jpg');
-        background-size: cover;
-        margin-top: -125px;
-    }
-    
-    body {
-        overflow-x: hidden;
-    }
-    
-    .et_pb_section_4 .et_pb_row_3 {
-        background: none;
-    }
-    
-    .et_pb_text_3 {
-        text-align: center;
-    }
-    
-    .et_pb_text_3 h2 {
-        color: #fff;
-        margin-top: 107px;
-        font-weight: bold;
-        font-size: 36px;
-        margin-bottom: 35px;
-    }
-    
-    #main-footer {
-        background: #fff;
-    }
-    
-    .et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
-        width: 100%;
-        text-align: center;
-        margin: 0;
-    }
-    
-    .et_pb_gutters3.et_pb_footer_columns4 .footer-widget .fwidget {
-        text-align: center;
-        width: 100%;
-    }
-    
-    #et-footer-nav .container {
-        width: 100%;
-        text-align: center;
-    }
-    
-    #footer-bottom {
-        background: #f6f5f7;
-    }
-    
-    #socialIcons {
-        text-align: center;
-        margin: 50px 0;
-        border-radius: 100%;
-        box-sizing: border-box;
-    }
-    
-    .et-social-icons {
-        float: none;
-    }
-    
-    #footer-info {
-        float: none;
-        padding-bottom: 10px;
-        color: #666;
-        text-align: center;
-        font-size: 14px;
-    }
+                                                    
+                                                    .et_overlay:before {
+                                                        /* font-family: inherit !important; */
+                                                        content: "";
+                                                    }
+                                                    
+                                                    .et_overlay {
+                                                        /* display: none; */
+                                                    }
+                                                    
+                                                    #et_search_icon {
+                                                        background: url('images/search.png') no-repeat;
+                                                        background-size: 100%;
+                                                        width: 22px;
+                                                        height: 23px;
+                                                        display: block;
+                                                    }
+                                                    
+                                                    #et_top_search {
+                                                        display: block;
+                                                        float: left;
+                                                        position: relative;
+                                                        width: 18px;
+                                                        margin: -3px 62px 0 22px;
+                                                    }
+                                                    
+                                                    #et_search_icon:before {
+                                                        font-family: inherit !important;
+                                                        content: "Search";
+                                                        padding: 3px 0 0 25px;
+                                                    }
+                                                    
+                                                    #main-header {
+                                                        box-shadow: none !important;
+                                                        background-color: transparent !important;
+                                                        position: absolute;
+                                                    }
+                                                    
+                                                    #main-header.et-fixed-header {
+                                                        box-shadow: none !important;
+                                                    }
+                                                    
+                                                    #page-container {
+                                                        padding-top: 0 !important;
+                                                    }
+                                                    
+                                                    #et-top-navigation {
+                                                        background: white;
+                                                        border-radius: 40px;
+                                                        padding-left: 0 !important;
+                                                    }
+                                                    
+                                                    #et-top-navigation .et-cart-info {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    #top-menu,
+                                                    .fullwidth-menu,
+                                                    nav#top-menu-nav,
+                                                    nav.fullwidth-menu-nav {
+                                                        float: right;
+                                                        margin-left: 20px;
+                                                        margin-right: 10px;
+                                                    }
+                                                    
+                                                    .et_header_style_left #et-top-navigation nav>ul>li>a,
+                                                    .et_header_style_split #et-top-navigation nav>ul>li>a {
+                                                        padding-bottom: 0;
+                                                    }
+                                                    
+                                                    .et_header_style_left #et-top-navigation,
+                                                    .et_header_style_split #et-top-navigation {
+                                                        padding: 18px 18px 11px 0;
+                                                        margin-top: 20px;
+                                                    }
+                                                    
+                                                    #logo {
+                                                        display: inline-block;
+                                                        float: none;
+                                                        max-height: 120px;
+                                                        vertical-align: bottom;
+                                                    }
+                                                    
+                                                    div.et_pb_section.et_pb_section_0 {
+                                                        background-position-y: inherit;
+                                                        height: 150vh;
+                                                    }
+                                                    
+                                                    #yellow {
+                                                        color: #fbf934;
+                                                    }
+                                                    
+                                                    #header-content-container {
+                                                        width: 400px;
+                                                        right: 0px;
+                                                        position: absolute
+                                                    }
+                                                    
+                                                    #white {
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .et_pb_section .et_pb_row,
+                                                    .et_pb_section.et_section_specialty .et_pb_row {
+                                                        margin: -110px auto 0 auto;
+                                                        width: 98%;
+                                                        border-radius: 5px;
+                                                        background: #fff;
+                                                    }
+                                                    
+                                                    .et_pb_row_0 {
+                                                        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
+                                                    }
+                                                    
+                                                    .et_pb_shop_0 .et_shop_image {
+                                                        box-shadow: none !important;
+                                                        width: 250px;
+                                                        min-height: 360px;
+                                                        margin: auto;
+                                                    }
+                                                    
+                                                    .woocommerce-page.columns-3 ul.products li.product,
+                                                    .woocommerce.columns-3 ul.products li.product {
+                                                        width: 33.333%;
+                                                        margin: 20px 0;
+                                                        padding-bottom: 22px;
+                                                    }
+                                                    
+                                                    .products li:hover {
+                                                        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
+                                                    }
+                                                    
+                                                    .products li:hover::after {}
+                                                    
+                                                    .et_shop_image:hover {
+                                                        box-shadow: none !important;
+                                                        border: none !important;
+                                                    }
+                                                    
+                                                    .et_shop_image:hover::before,
+                                                    .et_shop_image:hover::after {
+                                                        content: " ";
+                                                    }
+                                                    
+                                                    .et_shop_image:hover::before,
+                                                    .et_shop_image:hover::after {
+                                                        content: " ";
+                                                    }
+                                                    
+                                                    .et_overlay:after {
+                                                        content: "Add to cart";
+                                                        background: rgb(140, 132, 249);
+                                                        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%);
+                                                        font-size: 14px;
+                                                        -webkit-transition: all .4s;
+                                                        -moz-transition: all .4s;
+                                                        transition: all .4s;
+                                                        border-radius: 15px;
+                                                        padding: 10px 30px;
+                                                        width: 40%;
+                                                        text-align: center;
+                                                        position: absolute;
+                                                        align-items: center;
+                                                        left: 0;
+                                                        bottom: -116px;
+                                                        color: #fff;
+                                                        margin-left: 55px;
+                                                    }
+                                                    
+                                                    .et_overlay {
+                                                        display: block;
+                                                        position: absolute;
+                                                        z-index: -1;
+                                                        top: 0;
+                                                        left: 0;
+                                                        -webkit-box-sizing: border-box;
+                                                        -moz-box-sizing: border-box;
+                                                        box-sizing: border-box;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        border: none;
+                                                        opacity: 0;
+                                                        background: transparent;
+                                                        -webkit-transition: all .3s;
+                                                        -moz-transition: all .3s;
+                                                        transition: all .3s;
+                                                        -webkit-transform: translate3d(0, 0, 0);
+                                                        -webkit-backface-visibility: hidden;
+                                                        -moz-backface-visibility: hidden;
+                                                        backface-visibility: hidden;
+                                                        -o-backface-visibility: hidden;
+                                                    }
+                                                    
+                                                    .et_pb_column.et_pb_column_1_2.et_pb_column_1.et_pb_css_mix_blend_mode_passthrough {
+                                                        margin-top: 230px;
+                                                    }
+                                                    
+                                                    .et_pb_row_2 {
+                                                        box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.3);
+                                                    }
+                                                    
+                                                    .et_pb_text_2 h1 {
+                                                        text-align: center;
+                                                        font-weight: bold;
+                                                    }
+                                                    
+                                                    ul.et_pb_tabs_controls {
+                                                        box-shadow: 4px 3px 24px 2px rgba(0, 0, 0, 0.1);
+                                                        background: none;
+                                                        width: 84% !important;
+                                                        margin: 0 auto;
+                                                        border-radius: 50px !important;
+                                                        display: flex;
+                                                        flex: 1;
+                                                        flex-flow: row;
+                                                        justify-content: space-around;
+                                                    }
+                                                    
+                                                    ul.et_pb_tabs_controls li {
+                                                        border: none;
+                                                        padding: 23px 32px;
+                                                        text-transform: capitalize;
+                                                        height: auto !important;
+                                                    }
+                                                    
+                                                    .et_pb_tab_active {}
+                                                    
+                                                    .et_pb_all_tabs {
+                                                        margin-top: 10px;
+                                                    }
+                                                    
+                                                    .et_pb_tabs_0 {
+                                                        border: none;
+                                                    }
+                                                    
+                                                    .et_pb_tabs_controls li.et_pb_tab_active {
+                                                        background: none;
+                                                        padding: 23px 25px !important;
+                                                    }
+                                                    
+                                                    ul.et_pb_tabs_controls:after {
+                                                        border: none;
+                                                    }
+                                                    
+                                                    .et_pb_tabs_controls li .type-product {
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .woocommerce ul.products li.product a img {
+                                                        display: inline;
+                                                        width: 250px;
+                                                        height: 250px;
+                                                    }
+                                                    
+                                                    .et_fixed_nav #main-header,
+                                                    .et_fixed_nav #top-header {
+                                                        position: udenset;
+                                                    }
+                                                    
+                                                    #mc_embed_signup .button {
+                                                        border-radius: 25px !important;
+                                                        position: relative;
+                                                        top: -36px;
+                                                        left: 221px;
+                                                        background: rgb(140, 132, 249) !important;
+                                                        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%) !important;
+                                                        border: none;
+                                                        color: white;
+                                                        padding: 7px 40px;
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    #mc_embed_signup input.email {
+                                                        border-radius: 25px !important;
+                                                        padding: 0;
+                                                        height: 40px !important;
+                                                        padding-left: 10px;
+                                                        width: 44% !important;
+                                                    }
+                                                    
+                                                    .et_pb_section.et_pb_section_4.et_section_regular {
+                                                        background: url('images/get_notified_bg.jpg');
+                                                        background-size: cover;
+                                                        margin-top: -125px;
+                                                    }
+                                                    
+                                                    body {
+                                                        /* overflow-x: hidden; */
+                                                    }
+                                                    
+                                                    .et_pb_section_4 .et_pb_row_3 {
+                                                        background: none;
+                                                    }
+                                                    
+                                                    .et_pb_text_3 {
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .et_pb_text_3 h2 {
+                                                        color: #fff;
+                                                        margin-top: 107px;
+                                                        font-weight: bold;
+                                                        font-size: 36px;
+                                                        margin-bottom: 35px;
+                                                    }
+                                                    
+                                                    #main-footer {
+                                                        background: #fff;
+                                                    }
+                                                    
+                                                    .et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
+                                                        width: 100%;
+                                                        text-align: center;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    .et_pb_gutters3.et_pb_footer_columns4 .footer-widget .fwidget {
+                                                        text-align: center;
+                                                        width: 100%;
+                                                    }
+                                                    
+                                                    #et-footer-nav .container {
+                                                        width: 100%;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    #footer-bottom {
+                                                        background: #f6f5f7;
+                                                    }
+                                                    
+                                                    #socialIcons {
+                                                        text-align: center;
+                                                        margin: 50px auto;
+                                                        width: 26%;
+                                                    }
+                                                    
+                                                    .et-social-icons {
+                                                        float: none;
+                                                        display: flex;
+                                                        justify-content: space-around;
+                                                    }
+                                                    
+                                                    #footer-info {
+                                                        float: none;
+                                                        padding-bottom: 10px;
+                                                        color: #666;
+                                                        text-align: center;
+                                                        font-size: 14px;
+                                                    }
+                                                    /*Shop page*/
+                                                    
+                                                    .et_right_sidebar #sidebar {
+                                                        padding-left: 30px;
+                                                        float: left;
+                                                        width: 20.875%;
+                                                        margin-top: 100px;
+                                                    }
+                                                    
+                                                    .et-social-icon a {
+                                                        display: inline-block;
+                                                        position: relative;
+                                                        color: #555;
+                                                        font-size: 24px;
+                                                        text-align: center;
+                                                        text-decoration: none;
+                                                        transition: color .3s ease 0s;
+                                                    }
+                                                    
+                                                    .et-social-icons li {
+                                                        display: flex !important;
+                                                        flex-direction: row;
+                                                        padding: 10px;
+                                                        border: 1px solid #eee;
+                                                        border-radius: 100%;
+                                                        align-items: center;
+                                                        width: 50px;
+                                                        height: 50px;
+                                                        justify-content: center;
+                                                    }
+                                                    
+                                                    .et-social-icons li:hover {
+                                                        background: rgb(140, 132, 249);
+                                                        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%);
+                                                        color: white;
+                                                    }
+                                                    
+                                                    .et-social-icons li a:hover {
+                                                        color: #fff;
+                                                        opacity: 1 !important;
+                                                    }
+                                                    
+                                                    .et-social-icons a:before {
+                                                        font-size: 20px;
+                                                    }
+                                                    
+                                                    .woocommerce .products ul,
+                                                    .woocommerce ul.products {
+                                                        display: flex;
+                                                        flex: 1;
+                                                        flex-flow: wrap;
+                                                    }
+                                                    
+                                                    .woocommerce-page.columns-3 ul.products li.product,
+                                                    .woocommerce.columns-3 ul.products li.product {
+                                                        margin: 0;
+                                                        padding-bottom: 0;
+                                                        flex-grow: 1;
+                                                        width: 33%;
+                                                        padding: 0% 8%;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .woocommerce ul.products li.product .price,
+                                                    .woocommerce ul.products li.product .price del,
+                                                    .woocommerce-page ul.products li.product .price,
+                                                    .woocommerce-page ul.products li.product .price del {
+                                                        margin: 0!important;
+                                                        color: #666!important;
+                                                        font-size: 14px;
+                                                        position: relative;
+                                                        top: -50px;
+                                                    }
+                                                    
+                                                    .et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container.center,
+                                                    .et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-image-container.center,
+                                                    .et_pb_fullwidth_header .et_pb_fullwidth_header_container.right .header-content-container.center,
+                                                    .et_pb_fullwidth_header .et_pb_fullwidth_header_container.right .header-image-container.center {
+                                                        -webkit-align-self: center;
+                                                        -moz-align-self: center;
+                                                        -ms-align-self: center;
+                                                        align-self: center;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        padding-left: 52%;
+                                                        padding-top: 30%;
+                                                    }
+                                                    
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h1,
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h2.et_pb_module_header,
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h3.et_pb_module_header,
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h4.et_pb_module_header,
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h5.et_pb_module_header,
+                                                    .et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h6.et_pb_module_header {
+                                                        font-size: 100px !important;
+                                                        color: #000000!important;
+                                                        letter-spacing: 6px;
+                                                        text-align: left;
+                                                    }
+                                                    
+                                                    #white {
+                                                        color: #fff;
+                                                    }
+                                                    
+                                                    #twf {
+                                                        font-size: 50px;
+                                                        top: -32px;
+                                                        position: relative;
+                                                        left: 20px;
+                                                    }
+                                                    
+                                                    body #page-container .et_pb_fullwidth_header_0 .et_pb_button_one.et_pb_button {
+                                                        color: #000000!important;
+                                                        background: #ffffff;
+                                                        border-width: 0px!important;
+                                                        font-size: 19px;
+                                                        background-color: #ffffff;
+                                                        float: left;
+                                                        margin-left: 26px;
+                                                    }
+                                                    
+                                                    .page-id-341 #et-main-area,
+                                                    .page-id-3 #et-main-area {
+                                                        width: 70%;
+                                                        background: transparent;
+                                                        margin: 60px auto;
+                                                    }
+                                                    
+                                                    .page-id-341 .et_pb_row_0 {
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 {
+                                                        padding: 20px;
+                                                    }
+                                                    
+                                                    .page-id-341 #page-container {
+                                                        background: rgb(140, 132, 249);
+                                                        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%);
+                                                    }
+                                                    
+                                                    .page-id-341 .et_fixed_nav #main-header,
+                                                    .page-id-341 .et_fixed_nav #top-header {
+                                                        position: unswww !important;
+                                                    }
+                                                    
+                                                    .page-id-341 .et_pb_row_0 {
+                                                        box-shadow: none;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 div {
+                                                        float: left;
+                                                        margin-bottom: 15px;
+                                                        width: 50%;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 input {
+                                                        border-radius: 5px;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 input {
+                                                        border-radius: 5px;
+                                                        border: 1px solid #ddd;
+                                                    }
+                                                    
+                                                    #txtarea {
+                                                        width: 100% !important;
+                                                    }
+                                                    
+                                                    #txtarea textarea {
+                                                        width: 100% !important;
+                                                        border-radius: 5px;
+                                                        border: 1px solid #ddd;
+                                                    }
+                                                    
+                                                    #sbutton input {
+                                                        background: green;
+                                                        color: white;
+                                                        cursor: pointer;
+                                                        border: none;
+                                                        padding: 5px 26px;
+                                                        box-shadow: 0px 3px 1px 1px #eee;
+                                                    }
+                                                    
+                                                    #sbutton {
+                                                        width: 100% !important;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .page-id-341 .et_pb_section_0 {
+                                                        border-radius: 10px;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 h2 {
+                                                        text-align: center;
+                                                        background: rgb(140, 132, 249);
+                                                        background: linear-gradient(64deg, rgba(140, 132, 249, 1) 0%, rgba(161, 101, 244, 1) 100%);
+                                                        padding: 15px;
+                                                        color: #ffff;
+                                                        margin-bottom: 10px;
+                                                        text-transform: uppercase;
+                                                        border-radius: 10px;
+                                                        letter-spacing: 3px;
+                                                    }
+                                                    
+                                                    #wpcf7-f340-p341-o1 label {
+                                                        font-size: 12px;
+                                                        text-transform: capitalize;
+                                                        color: #000;
+                                                    }
+                                                    
+                                                    #main-content .container:before {
+                                                        position: absolute;
+                                                        top: 0;
+                                                        width: 1px;
+                                                        height: 100%;
+                                                        background-color: #ffff;
+                                                        content: "";
+                                                    }
+                                                    
+                                                    .page-id-156 #main-header {
+                                                        position: ssabsolute;
+                                                    }
+                                                    
+                                                    .et-search-field::placeholder {
+                                                        color: #fff;
+                                                    }
+                                                    
+                                                    #logo::after {
+                                                        content: "Hypermarket";
+                                                    }
+                                                    
+                                                    .logoTitle {
+                                                        color: purple;
+                                                        top: 35px;
+                                                        position: relative;
+                                                        left: -117px;
+                                                        font-family: "roboto slab";
+                                                        font-size: large;
+                                                        font-style: italic;
+                                                    }
+                                                    
+                                                    #main-content .container {
+                                                        padding-top: 150px;
+                                                    }
+                                                    
+                                                    .woocommerce div.product div.images img {
+                                                        width: 60%;
+                                                        box-shadow: none;
+                                                    }

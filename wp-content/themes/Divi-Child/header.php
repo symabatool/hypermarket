@@ -238,6 +238,7 @@
 					<span class="logo_helper"></span>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 						<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
+						<span class='logoTitle'>Hypermarket</span>
 					</a>
 				</div>
 			<?php

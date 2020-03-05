@@ -1,0 +1,15 @@
+2020-03-05T17:04:08+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 362
+2020-03-05T17:06:00+00:00 NOTICE system.debug :: order 362 is in failed status, and is being skipped for now.
+2020-03-05T17:06:02+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 1
+2020-03-05T17:06:16+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 362
+2020-03-05T17:07:05+00:00 NOTICE member.sync :: Updated Member symabatool110@gmail.com ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => sam
+            [LNAME] => ash
+        )
+
+)
+
+2020-03-05T17:09:09+00:00 ERROR order_submit.tracing_error :: Error Code 400 :: <p>order_url: That is not a valid URL: http://localhost/hypermarket/my-account-2/view-order/362/</p> on 1817 in C:\xampp\htdocs\hypermarket\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php

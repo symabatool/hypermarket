@@ -1,0 +1,21 @@
+2020-03-04T10:25:50+00:00 DEBUG 
+====Stripe Version: 4.3.2====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2020-03-04T11:35:05+00:00 DEBUG 
+====Stripe Version: 4.3.2====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
+2020-03-04T11:35:53+00:00 DEBUG 
+====Stripe Version: 4.3.2====
+====Start Log====
+Error: Unable to verify domain - missing secret key.
+====End Log====
+
+
